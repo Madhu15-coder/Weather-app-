@@ -1,0 +1,53 @@
+/* General Body Styling */
+body {
+  background: linear-gradient(to right, #2c3e50, #3498db);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Container Box */
+.container {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+/* Title */
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Input Box */
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}
+
+/* Button */
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background-color: #fff;
+  color: #3498db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Result Box */
+#weatherResult {
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
